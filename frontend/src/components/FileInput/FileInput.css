@@ -1,0 +1,30 @@
+input[type=file] {
+  width: 350px;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 12px;
+  border: 1px solid #555;
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  background: #AB455F;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+  border: 1px solid #AB455F;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #721430;
+}
+
+input[type=file]::file-selector-button:active {
+  background: #AB455F;
+  border: 1px solid white;
+}
+
+input[type=file]::fi {
+  outline: none;
+}
